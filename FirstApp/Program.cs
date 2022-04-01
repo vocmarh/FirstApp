@@ -15,6 +15,8 @@ namespace FirstApp
             Console.WriteLine("\tHello,\n \tworld!");
             Console.WriteLine("\tI'm 27 y.o.");
             Console.WriteLine("\tMy name is Sergei");
+            Console.WriteLine('\u0040');
+            Console.WriteLine('\x23');
 
             Console.ReadKey();
         }
