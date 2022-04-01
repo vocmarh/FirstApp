@@ -18,9 +18,24 @@ namespace FirstApp
             Console.WriteLine("I'm " + myAge);
             Console.WriteLine("Do you have a pet? " + havePet);
             Console.WriteLine("My shoe size is " + myShoeSize);
-            
+
+            daysOfWeek myFavoriteDay;
+            myFavoriteDay = daysOfWeek.Friday;
+            Console.WriteLine(myFavoriteDay);
 
             Console.ReadKey();
-        }
+        }        
+        
+    }
+    enum daysOfWeek : byte
+    {
+        Monday = 1,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
     }
 }
+
