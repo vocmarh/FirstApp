@@ -12,9 +12,9 @@ namespace FirstApp
         {
             const string myName = "Sergei";
             Console.WriteLine(myName);
-            Console.WriteLine("Hello world!");
-            Console.WriteLine("I'm 27 y.o.");
-            Console.WriteLine("My name is Sergei");
+            Console.WriteLine("\tHello world!");
+            Console.WriteLine("\tI'm 27 y.o.");
+            Console.WriteLine("\tMy name is Sergei");
 
             Console.ReadKey();
         }
