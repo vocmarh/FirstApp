@@ -10,8 +10,12 @@ namespace FirstApp
     {
         static void Main(string[] args)
         {
-            const string myName = "Jane";
+            const string myName = "Sergei";
             Console.WriteLine(myName);
+            Console.WriteLine("Hello world!");
+            Console.WriteLine("I'm 27 y.o.");
+            Console.WriteLine("My name is Sergei");
+
             Console.ReadKey();
         }
     }
