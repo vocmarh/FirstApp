@@ -15,6 +15,11 @@ namespace FirstApp
             byte myAge = 32;
             bool havePet = true;
             double myShoeSize = 46.5;
+            double result = 5.0 / 2.0 * 3.0;
+            int k = -10;
+            int b = 20;
+            int result1 = b - k;
+            double result2 = 10 % 3;
             Console.WriteLine("My name is " + myName);
             Console.WriteLine("I'm " + myAge);
             Console.WriteLine("Do you have a pet? " + havePet);
@@ -38,10 +43,16 @@ namespace FirstApp
             string str = Console.ReadLine();
             Console.WriteLine(str);
 
+            Console.WriteLine($"5 / 2 * 3 = {result}");
+
+            Console.WriteLine(result1);
+
+            Console.WriteLine(result2);
+
 
             Console.ReadKey();
-        }        
-        
+        }
+
     }
     enum daysOfWeek : byte
     {
